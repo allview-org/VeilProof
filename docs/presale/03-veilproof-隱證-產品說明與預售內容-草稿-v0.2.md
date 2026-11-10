@@ -6,9 +6,11 @@
 | 產品線編號 | [待確認] 10 條產品線中的編號尚未提供；README 未載明 PMO 倉儲代碼（如 `C3-AV-xxx-F`／`C2-AV-xxx`）[待確認] |
 | 所屬法人 | 事業體 AllView／全視界（domain：`allview.today`；PMO：`C1-AV-CORP`）。**正式法人名稱（公司登記名稱）[待確認]** |
 | 產出日期 | 2026-11-09（Asia/Taipei） |
-| 版本 | 草稿 v0.1 |
+| 版本 | 草稿 v0.2 |
 | 任務目標 | [假設] 同時更新 README 與產出預售說詞（使用者僅附上檔案，未另行指定範圍） |
 | 核心事實錨點 | 本次未另附獨立錨點。下文事實均摘自使用者提供之既有 README，**尚未升級為已確認錨點** |
+
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
@@ -17,7 +19,7 @@
 - **產品線名稱／代號**：VeilProof（隱證）商務兵棋推演／沙盤推演模擬模組；功能倉 `allview-market-simulation-app`
 - **所屬法人**：README 寫明本倉為 AllView（`allview.today`）數位傳播與互動技術生態矩陣下的第三類功能性技術儲存庫；GitHub 組織為 `allview-today`；角色信箱均為 `@allview.today`。
 - **跨事業體出現之處（須分開標註，不改變歸屬）**：
-  - 資安漏洞通報信箱寫為 `github-security@wonderland.center`（Wonderland.center 網域）。[待確認] 是否為正確的對外資安窗口，或應改為 AllView 網域。
+  - 資安漏洞通報信箱寫為 `github-security@wonderland.center`（wonderland.center 網域）。[待確認] 是否為正確的對外資安窗口，或應改為 AllView 網域。
   - README 的 FHE 函式庫為 OpenFHE／TFHE-rs，**未**提及 AEGIS（`aegis.expert`）的 FHE 核心。[待確認] 是否與 FHE Social 一樣，FHE 核心實際由 AEGIS 協作提供。
 - **既有文件**：`allview-market-simulation-app` README（定位、功能矩陣、密碼學邊界、目錄、本地開發、QA 閘門、協作規範、信箱、授權聲明）
 - **對應預售倉**：`allview-market-simulation-presale`（README 架構圖中標示為 Presale Showcase Repo）
@@ -107,7 +109,7 @@ README 列出情境類型，但未定義客戶規模、產業或採購角色；�
 **非對象（依 README 可合理區隔，供審核）**
 
 - 需要正式法律意見、投資建議或併購執行依據者：README 免責聲明明確排除。
-- 需要醫療決策、臨終照護選擇演練者：屬 Wonderland.center 選擇預演，非本產品。
+- 需要醫療決策、臨終照護選擇演練者：屬 Wonderland Center 選擇預演，非本產品。
 - 只需要匿名社群或加密通訊者：屬 AllView FHE Social，非本產品。
 
 ---
@@ -121,7 +123,7 @@ README 列出情境類型，但未定義客戶規模、產業或採購角色；�
 
 **跨法人易混淆產品**
 
-- **vs. 選擇預演（ChoiceRehearsal，Wonderland.center）**：選擇預演是醫療／預立醫療決策的教育與決策輔助，非醫療行為；VeilProof 隱證是商務談判與競爭推演。兩者都有「預演／沙盤」意象，對外須明確分開，不可互相引用。
+- **vs. 選擇預演（ChoiceRehearsal，Wonderland Center）**：選擇預演是醫療／預立醫療決策的教育與決策輔助，非醫療行為；VeilProof 隱證是商務談判與競爭推演。兩者都有「預演／沙盤」意象，對外須明確分開，不可互相引用。
 - **vs. HEShell、FHE AI NAS（AEGIS）**：兩者是 FHE／AI 的安全殼層與地端運算節點，屬基礎設施；VeilProof 隱證是應用層的推演產品。若 FHE 核心由 AEGIS 提供，屬跨事業體協作，[待確認]，不改變本產品歸屬 AllView。
 
 **相對於一般商業模擬或談判訓練工具**：差異點是「底牌以密文參與比對、只揭露必要結果」與「每個動作可簽章回放」，而不是畫面或劇本數量。效能、可支援人數與即時性未提供，不作比較。
@@ -311,4 +313,4 @@ FHE 核心來源（本倉自行整合 OpenFHE／TFHE-rs，或由 AEGIS `aegis.ex
 6. **資安窗口**：`github-security@wonderland.center` 是否正確（跨事業體網域）。
 7. **法律效力與免責**：證據鏈能否在仲裁場景使用；預售文案已避免「可作為法律證據」。
 8. **商業條件**：銷售模式、價格、交期、授權條款本次未提供，草稿留空。
-9. **本文件狀態**：草稿 v0.1，**尚未最終確認**。
+9. **本文件狀態**：草稿 v0.2，**尚未最終確認**。
