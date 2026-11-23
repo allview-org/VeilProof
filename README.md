@@ -193,7 +193,7 @@ Gate 6: Post-release      ── 支援灰度上線與完整回滾（Rollback）
 * **Collaborator Team**: `collab-allview-market-simulation-app@allview.today`
 * **QA Lead**: `qa-allview-market-simulation-app@allview.today`
 * **Repo Admin / PMO**: `admin-allview-market-simulation-app@allview.today`
-* **資安漏洞通報**: `github-security@wonderland.center`
+* **資安漏洞通報**: `github-security@wonderland.ngo`
 
 ---
 

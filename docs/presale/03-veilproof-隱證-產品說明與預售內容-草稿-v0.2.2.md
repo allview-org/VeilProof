@@ -14,7 +14,7 @@ v0.2.2（2026-11-14，Asia/Taipei）：依使用者 2026-11-14 14:35 指示，�
 
 v0.2.1（2026-11-13，Asia/Taipei）：依使用者 2026-11-13 指示，對外產品顯示名稱由「FHE AI NAS」及「亞傑師私有金庫 / AEGIS Vault / AEGIS-Vault」統一為「密文智庫 / EncryMind」。僅替換散文、標題與表頭中的顯示名稱；repo 名稱 AEGIS-Vault、org、產品代號、檔名主體、URL、CTA 代碼、分支與程式識別字不變。其餘內容不變，仍為草稿。
 
-v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.center）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
+v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜槓一二三 / Slash123（slash1to3.com）、斜槓104 / Slash104（slash1ofours.com）、水月道場 / Wonderland Center（wonderland.ngo）；僅移除官方網域選擇的待確認標註，其餘待確認與內容維持草稿
 
 ---
 
@@ -23,7 +23,7 @@ v0.2（2026-11-10）：依主 PMO 確認統一品牌名稱與官方網域為 斜
 - **產品線名稱／代號**：VeilProof（隱證）商務兵棋推演／沙盤推演模擬模組；功能倉 `allview-market-simulation-app`
 - **所屬法人**：README 寫明本倉為 AllView（`allview.today`）數位傳播與互動技術生態矩陣下的第三類功能性技術儲存庫；GitHub 組織為 `allview-today`；角色信箱均為 `@allview.today`。
 - **跨事業體出現之處（須分開標註，不改變歸屬）**：
-  - 資安漏洞通報信箱寫為 `github-security@wonderland.center`（wonderland.center 網域）。[待確認] 是否為正確的對外資安窗口，或應改為 AllView 網域。
+  - 資安漏洞通報信箱寫為 `github-security@wonderland.ngo`（wonderland.ngo 網域）。[待確認] 是否為正確的對外資安窗口，或應改為 AllView 網域。
   - README 的 FHE 函式庫為 OpenFHE／TFHE-rs，**未**提及 AEGIS（`aegis.expert`）的 FHE 核心。[待確認] 是否與 FHE Social 一樣，FHE 核心實際由 AEGIS 協作提供。
 - **既有文件**：`allview-market-simulation-app` README（定位、功能矩陣、密碼學邊界、目錄、本地開發、QA 閘門、協作規範、信箱、授權聲明）
 - **對應預售倉**：`allview-market-simulation-presale`（README 架構圖中標示為 Presale Showcase Repo）
@@ -297,7 +297,7 @@ FHE 核心來源（本倉自行整合 OpenFHE／TFHE-rs，或由 AEGIS `aegis.ex
 - Collaborator Team：`collab-allview-market-simulation-app@allview.today`
 - QA Lead：`qa-allview-market-simulation-app@allview.today`
 - Repo Admin / PMO：`admin-allview-market-simulation-app@allview.today`
-- 資安漏洞通報：`github-security@wonderland.center`（[待確認] 是否為正確窗口）
+- 資安漏洞通報：`github-security@wonderland.ngo`（[待確認] 是否為正確窗口）
 
 ## 授權與免責
 
@@ -314,7 +314,7 @@ FHE 核心來源（本倉自行整合 OpenFHE／TFHE-rs，或由 AEGIS `aegis.ex
 3. **比較級與徽章**：同意不對外使用「Signal 級」「極限商戰」「密碼學級」「杜絕」等措辭，以及 `CI/CD Passing`、`Security Audit Ready` 徽章；是否有第三方稽核或測試報告可支撐任何安全宣稱。
 4. **即時制與效能**：即時制在 FHE 下的延遲、可支援人數、Gate 5 SLA 門檻數值，目前全無數據。
 5. **FHE 核心來源**：自行整合 OpenFHE／TFHE-rs，或由 AEGIS 協作提供；若為後者，需在文件標示協作關係。
-6. **資安窗口**：`github-security@wonderland.center` 是否正確（跨事業體網域）。
+6. **資安窗口**：`github-security@wonderland.ngo` 是否正確（跨事業體網域）。
 7. **法律效力與免責**：證據鏈能否在仲裁場景使用；預售文案已避免「可作為法律證據」。
 8. **商業條件**：銷售模式、價格、交期、授權條款本次未提供，草稿留空。
 9. **本文件狀態**：草稿 v0.2.2，**尚未最終確認**。
